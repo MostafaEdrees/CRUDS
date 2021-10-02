@@ -1,0 +1,48 @@
+.parent
+{
+
+width: 400px ;
+height: 200px;
+background-color: brown;
+
+}
+
+
+.paragrph{
+    background-color: blue;
+    width: 20px;
+}
+
+body{
+ background-image:url(../IMG/86446106-89b1-4f9d-8d44-5f2360892001.jpg);
+ background-position: center center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.danger{
+
+    border-radius: 5%;
+}
+.pro{
+    background-color:#FFDC9F ;
+}
+.warning{
+
+background-color: rgb(219, 188, 188);
+
+
+}
+.CRUDS{
+  
+    padding: 20px;
+}
+.lable{
+    font-size: 20px;
+    color:#F4ED6E ;
+    font-weight: 600;
+}
+.lable2{
+    font-size: 50px;
+    color:#F4ED6E ;
+    font-weight: 600;
+}

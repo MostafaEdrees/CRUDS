@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <div class="w-75 mx-auto my-4 danger p-3">
+        <h1 class="CRUDS text-center lable2"> CRUDS SyStem</h1>
+ <!-- <div class="info  d-flex justify-content-between">
+
+<h2> Create</h2>
+<h3>Retrive </h3>
+<h4> Update</h4>
+<h5> Delete</h5>
+<h6>Search </h6>
+ </div> -->
+        <div class="mb-3">
+            <label class="lable" for="productName">ProductName :</label>
+            <input class="form-control my-2" type="text" id="productName" placeholder="Start with capital">
+        </div>
+        <div class="mb-3">
+            <label class="lable" for="productPrice">ProductPrice :</label>
+            <input class="form-control my-2" type="number" id="productPrice" placeholder="must be a number">
+        </div>
+
+        <div class="mb-3">
+            <label class="lable" for="productCategory">productCategory :</label>
+            <input class="form-control my-2" type="text" id="productCategory">
+
+        </div>
+
+        <div class="mb-3">
+            <label  class="lable" for="productDesc">productDesc :</label>
+            <textarea class="form-control my-2" type="text" id="productDesc"></textarea>
+
+        </div>
+      
+        <button onclick="addProduct()" class="btn   pro" id="product">add product</button>
+    </div>
+
+    <div class="mb-3 w-100  ">
+     <div class="mx-auto w-75">   <label  class="lable" >Serch of product</label>
+        <input onkeyup="searchProudct(this.value)" class="form-control my-2" type="text" >
+        <span class="small text-muted">serash by name </span></div>
+
+    </div>
+
+    <div class="w-75  m-auto  warning">
+
+        <table class=" table ">
+            <thead>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Catag</th>
+                <th>Description</th>
+                <th>Update</th>
+                <th>Deleat</th>
+            </thead>
+            <tbody id="displayProudct">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
